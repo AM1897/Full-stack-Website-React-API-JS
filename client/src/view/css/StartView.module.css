@@ -1,0 +1,14 @@
+.main {
+    background-color: #efefef;
+    height: 85vh;
+}
+
+.section {
+    text-align: center;
+    color: black;
+}
+
+.h1 {
+    margin: 0;
+    padding-top: 150px;
+}

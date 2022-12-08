@@ -1,0 +1,29 @@
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #142044;
+
+}
+.li {
+    float: right;
+}
+
+.li:last-child {
+    border-right: none;
+}
+
+.link {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Poppins-Light, sans-serif;
+    font-size: 20px;
+}
+
+.link:hover:not(.active) {
+    color: lightgrey;
+}

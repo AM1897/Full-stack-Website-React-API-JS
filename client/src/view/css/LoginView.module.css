@@ -1,0 +1,44 @@
+.gridContainer {
+    background-color: #efefef;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 85vh;
+}
+
+.section {
+    text-align: center;
+    height: 35vh;
+    background-color: #142044;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.inputEmail {
+    width: 250px;
+    border-radius: 5px;
+    height: 30px;
+    border: 0.1em solid gray;
+}
+
+.inputPassword {
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 5px;
+    height: 30px;
+    border: 0.1em solid gray;
+}
+
+.buttonLogin {
+    height: 30px;
+    width: 100px;
+    margin: 20px 160px 0 0;
+    border-radius: 5px;
+    background-color: #D78D83;
+    color: white;
+    border: 0.1em solid gray;
+    cursor: pointer;
+}
+
+.h1 {
+    color: white;
+}

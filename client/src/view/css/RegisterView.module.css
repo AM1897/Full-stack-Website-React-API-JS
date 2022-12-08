@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.emtyContainer {
+    background-color: #efefef;
+}
+
+.inputContainer {
+    height: 45vh;
+    border-radius: 20px;
+    background-color: #142044;
+}
+
+.buttonSignIn {
+    height: 30px;
+    width: 100px;
+    margin: 5px 160px 0 0;
+    border-radius: 5px;
+    background-color: #D78D83;
+    color: white;
+    border: 0.1em solid gray;
+    cursor: pointer;
+}
+
+.input {
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 5px;
+    height: 30px;
+    border: 0.1em solid gray;
+}
+
+.h2 {
+    color: white;
+}
